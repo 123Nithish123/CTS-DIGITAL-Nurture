@@ -1,0 +1,11 @@
+bin/
+target/
+*.class
+*.jar
+*.war
+.idea/
+*.iml
+*.log
+Module-09-Spring REST using Spring Boot 3/*/target/
+Module-09-Spring REST using Spring Boot 3/*/*/target/
+commit-all.ps1
