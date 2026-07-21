@@ -1,0 +1,19 @@
+Exercise 1: Initializing Git and Making Your First Commit
+
+Objective:
+Configure your Git environment, set Notepad++ as the preferred editor, establish a local repository, stage a file, commit it, and synchronize with a remote GitLab repository.
+
+Steps:
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global core.editor "notepad++"
+git init GitDemo
+cd GitDemo
+echo welcome to git > welcome.txt
+type welcome.txt
+git status
+git add welcome.txt
+git commit -m "Add welcome.txt"
+git pull origin master
+git push origin master
